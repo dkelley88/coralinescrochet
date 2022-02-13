@@ -1,0 +1,54 @@
+body {
+	font-family: 'Amatic SC', cursive;
+	font-size: xx-large;
+	background-color: #2a3a3f;
+	text-align: center;
+	background-image: url("../img/pastel.jpg");
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	border:2px solid rgb(13, 38, 53);
+	border-radius: 30px;
+	color: #000000;
+}
+
+.body-paragraph {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.parent-div {
+	width: 80%;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: stretch
+}
+
+.parent-div div{
+	padding: 20px;
+	margin: 0 20px;
+}
+
+img {
+	width: 100%;
+}
+
+.child-1 {
+	background-color: #db2194;
+}
+
+.child-2 {
+	background-color: #00ccff;
+}
+
+.catimage {
+	width: 30%;
+}
+
+a {
+	color:rgb(236, 9, 206);
+}
