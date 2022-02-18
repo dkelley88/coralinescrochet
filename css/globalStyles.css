@@ -4,6 +4,8 @@ body {
 	background-color: #2a3a3f;
 	text-align: center;
 	background-image: url("../img/pastel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
