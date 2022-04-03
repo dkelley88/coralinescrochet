@@ -1,0 +1,70 @@
+body {
+	font-family: 'Amatic SC', cursive;
+	font-size: xx-large;
+	text-align: center;
+	background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	border:2px solid rgb(13, 38, 53);
+	border-radius: 30px;
+	width: 500px;
+	color: #000000;
+	text-align: center;
+}
+
+.body-paragraph {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.parent-div {
+	width: 500px;
+	height: 200px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: normal;
+	border: 2px solid #000000;
+	border-radius: 30px;
+}
+
+.links-div {
+	position:fixed;
+	top: 50%;
+	left: 0;
+	width: 10%;
+
+}
+
+.smaller-image {
+	width: 100px;
+}
+
+
+.parent-div div{
+	padding: 20px;
+	margin: 0 20px;
+}
+.child-1 {
+	background-color: #db2194;
+}
+
+.child-2 {
+	background-color: #00ccff;
+}
+
+.catimage {
+	width: 200px;
+}
+
+a {
+	color:rgb(236, 9, 206);
+}
+
+.pink-text{
+	color:pink;
+}
